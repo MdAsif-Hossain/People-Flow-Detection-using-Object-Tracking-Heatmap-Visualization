@@ -1,0 +1,7 @@
+yolov8n.pt
+people-walking.mp4
+output_display.mp4
+verify_counts.py
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
