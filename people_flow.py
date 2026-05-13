@@ -114,8 +114,15 @@ def run(
 
     # ---- Tracker & annotators ----------------------------------------------
     tracker = sv.ByteTrack()
-    box_annotator = sv.BoxAnnotator(thickness=2)
-    label_annotator = sv.LabelAnnotator(text_scale=0.5, text_thickness=1)
+    box_annotator = sv.BoxAnnotator(thickness=3)
+    label_annotator = sv.LabelAnnotator(
+        color=sv.Color.WHITE,
+        text_color=sv.Color.BLACK,
+        text_scale=0.7,
+        text_thickness=2,
+        text_padding=8,
+        border_radius=4,
+    )
 
     # ---- State -------------------------------------------------------------
     # Maps tracker_id -> last recorded center-y for crossing detection
