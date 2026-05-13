@@ -28,12 +28,8 @@ This system processes a video feed to:
 
 ## Live Demo
 
-The GIF above shows the system running on a real crowd scene.  
+The GIF above shows the system running on a real crowd scene — bounding boxes, persistent tracker IDs, colour-coded IN/OUT lines, and a live counter updating in real time.  
 The full annotated output video is available at [`output_flow_tracking.mp4`](output_flow_tracking.mp4).
-
-| Feature | Preview |
-|---------|---------|
-| Bounding box + ID tracking | ![demo](demo.gif) |
 
 ---
 
